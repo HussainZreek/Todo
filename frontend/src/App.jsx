@@ -11,7 +11,7 @@ const App = () => {
   const [filterImportant, setFilterImportant] = useState(false)
 
 
-  const baseURL = 'http://localhost:3001/api/todos'
+  const baseURL = '/api/todos'
   
   useEffect(() => {
     axios
